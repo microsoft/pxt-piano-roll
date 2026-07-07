@@ -14,6 +14,7 @@ namespace pianoRoll {
      */
     //% blockId=piano_roll_melody
     //% block="piano roll melody $song at tempo $tempo (bpm)"
+    //% help=github:pxt-piano-roll/docs/melody
     //% song.fieldEditor=pianoroll
     //% song.fieldOptions.decompileLiterals=true
     //% song.fieldOptions.taggedTemplate="hex;assets.song"
@@ -40,6 +41,7 @@ namespace pianoRoll {
      */
     //% blockId=piano_roll_on_note_start
     //% block="on note start $frequency $octave $noteIndex $duration"
+    //% help=github:pxt-piano-roll/docs/on-note-start
     //% draggableParameters="reporter"
     //% weight=100
     //% group="Events"
@@ -55,6 +57,7 @@ namespace pianoRoll {
      */
     //% blockId=piano_roll_on_note_end
     //% block="on note end $frequency $octave $noteIndex"
+    //% help=github:pxt-piano-roll/docs/on-note-end
     //% draggableParameters="reporter"
     //% weight=90
     //% group="Events"
@@ -68,6 +71,7 @@ namespace pianoRoll {
      */
     //% blockId=piano_roll_on_rest
     //% block="on rest $duration"
+    //% help=github:pxt-piano-roll/docs/on-rest
     //% draggableParameters="reporter"
     //% weight=80
     //% group="Events"
@@ -84,6 +88,7 @@ namespace pianoRoll {
      */
     //% blockId=piano_roll_note_name
     //% block="note index $noteIndex name"
+    //% help=github:pxt-piano-roll/docs/note-name
     //% weight=100
     //% group="Utilities"
     export function noteName(noteIndex: number): string {
@@ -99,10 +104,12 @@ namespace pianoRoll {
      * Returns true if the note for the given note index (0-12) is a sharp or flat note. In other words
      * return trues if the note would be a black key on a piano.
      *
+     *
      * @param noteIndex The index of the note (0-12)
      */
     //% blockId=piano_roll_is_sharp
     //% block="note index $noteIndex is sharp"
+    //% help=github:pxt-piano-roll/docs/is-sharp
     //% weight=90
     //% group="Utilities"
     export function isSharp(noteIndex: number): boolean {

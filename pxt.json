@@ -1,10 +1,16 @@
 {
-    "name": "my-project",
+    "name": "pxt-piano-roll",
     "version": "0.0.0",
     "files": [
         "playable.ts",
         "api.ts",
-        "main.ts"
+        "main.ts",
+        "docs/melody.md",
+        "docs/on-note-start.md",
+        "docs/on-note-end.md",
+        "docs/on-rest.md",
+        "docs/note-name.md",
+        "docs/is-sharp.md"
     ],
     "supportedTargets": [
         "microbit"
