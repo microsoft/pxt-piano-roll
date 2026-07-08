@@ -2,6 +2,8 @@
     "name": "pxt-piano-roll",
     "version": "0.0.0",
     "files": [
+        "README.md",
+        "icon.png",
         "playable.ts",
         "api.ts",
         "main.ts",
